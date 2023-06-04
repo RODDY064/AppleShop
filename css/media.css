@@ -1,0 +1,190 @@
+@media screen and (max-width:500px) {
+    .nav-links li{
+        display: none;
+    }
+ .intro-box {
+    width: 100%;
+ }
+ header{
+   display: block;
+ }
+ header .intro-box h2{
+    font-size: 2em;
+ }
+ header .intro-box h3{
+    width: 80%;
+    font-size: 0.8em;
+ }
+ .image{
+   margin-left: 0;
+   width: 100%;
+   height: 60vh;
+ }
+ .image img{
+   height: 80%;
+ }
+ .show-box{
+   width: 100%;
+   height: 35vh;
+   margin: auto;
+ }
+ .info h3{
+   font-size: 30px;
+ }
+ .card-box{
+   display: inline;
+ }
+ .card{
+   width: 50%;
+   height: 25vh;
+   margin: 10px auto 0px auto;
+ }
+ .desciption{
+   display: inline;
+}
+#text-1{
+   font-size: 0.8em;
+   margin-left: auto;
+}
+#text-2{
+   font-size: 0.8em;
+   margin-left: auto;
+}
+.text-1-1{
+   display: none;
+}
+.text-1-2{
+   display: block;
+}
+.iphone-case{
+      
+   width:100%;
+   height: 45vh
+}
+.systems{
+   width: 100%;
+   display: block;
+}
+.system-card{
+   width: 80%;
+   height: 600px;
+   margin: auto;
+}
+.system-card2{
+   width: 80%;
+   height: 470px;
+   margin: auto;
+}
+.system-semi-card{
+   width: 80%;
+   margin:20px auto auto auto;
+}
+
+.system-semi-card2{
+   width: 80%;
+   margin:20px auto auto auto;
+}
+.system-mini-box{
+   display: block;
+}
+.system-semi-card h3{
+   padding: 50px 0px 0px 40px;
+}
+.system-semi-card h4{
+   padding: 0px 0px 0px 45px;
+}
+.system-semi-card h5{
+   padding: 0px 0px 0px 60px;
+}
+#new-info{
+   font-size: 1.4em;
+}
+
+.store-card{
+   flex: 0 0 96%;
+   width: 97%;
+   height: 500px;
+   padding-top: 20px;
+   z-index: 1;
+}
+.store-image{
+   
+   margin: -50% 10px 0px 0px;
+   border-radius: 12px;
+}
+.store-image img{
+   height: 80%;
+}
+.store-card{
+   margin: 20px 0px 0px 10px;
+   z-index: 1;
+}
+.store-card-info-box {
+   width: 40%; 
+   height: 100%;
+   overflow: hidden;
+
+}
+.store-card-info-box h2{
+   margin: 7px 0px 0px 7px;
+   font-size: 1.15em;
+}
+.store-card-info-box h3{
+   margin: 12px 0px 0px 10px ;
+   font-size: 0.8em;
+}
+.color-box{
+   margin-left: 5px;
+}
+.color-box2{
+   margin-left: 5px;
+}
+#iph13{
+   margin-top: 0px;
+}
+.apple-watch-system-card{
+   width: 97%;
+
+}
+.apple-watch-system-card h2{
+   margin-top: 40px;
+}
+.apple-watch-system-card h3{
+   font-size: 0.9em;
+   margin-top: 5px;
+   display: none;
+} 
+.apple-watch-system-card2{
+   display: inline;
+}
+.apple-watch-card-info{
+   width: 93%;
+   height: 39vh;
+   margin: 20px auto auto auto;
+}
+
+.apple-card{
+ 
+   width: 95%;
+   height: 35vh;
+   flex: 0 0 95%;
+}
+.apple-card nav h3{
+   margin: 3% 0px 0px 20px;
+}
+.login-box{
+   width: 90%;
+   height: 70%;
+
+}
+#log-2{
+   padding-bottom: 140px;
+}
+.input-box h3{
+   margin-top: 20%;
+}
+.ipad{
+   width: 100%;
+   height: 50vh;
+}
+}

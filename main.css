@@ -1,0 +1,834 @@
+body {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    color: #1d1d1f;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:#F5F5F7;
+    
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+   
+}
+.logo{
+    margin: 10px 0px 0px 10px;
+    font-size: 1.2em;
+    font-weight: 550;
+    cursor: pointer;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0px 0px;
+}
+.nav-links  li{
+    list-style: none;
+    margin-left: 25px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.log-in a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 26px;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95em;
+    box-shadow: 2px 2px 2px #1d1d1f8f;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+.intro-box{
+    margin-top: 6%;
+}
+header .intro-box h2{
+    margin: 12% 0px 0px 40px;
+    font-size: 3em;
+}
+header .intro-box h3{
+    width: 600px;
+    margin-left: 40px;
+    font-size: 1.04em;
+    font-weight: 500;
+}
+.shop-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    color: #fff;
+    margin: 5% 0px 0px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#arrow{
+    margin-left: 2px;
+    transform: rotate(90deg);
+}
+.image-box{
+    width: 98%;
+    height: 80vh;
+    margin-right: 5px;
+}
+.image-box h2{
+    margin: 20px 0px 0px 60px;
+}
+.image{
+    margin-left: 20px;
+    width: 90%;
+    height: 80vh;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+}
+.image{
+    margin-left: 20px;
+    width: 90%;
+    height: 70vh;  
+}
+.image2{
+    margin: -130px 0px 0px 20px;
+    width: 100%;
+    height: 20vh;
+    display: none;
+}
+.image2 img{
+    width: 100%;
+}
+.image2 h2{
+    margin: 0px 0px 0px 60px;
+}
+.main{
+    width: 100%;
+
+    
+}
+.main h4{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.4em;
+    opacity: 0;
+    transition: all 2s;
+}
+.show-box{
+    width: 100%;
+    height: 80vh;
+    background: url(pics/logo/m12.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.show-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    filter: blur(8px);
+}
+img{
+    filter: blur(10px);
+}
+
+.info{
+    margin-top: -35px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.info h3{
+    margin-top: 30px;
+    font-size: 60px;
+    color: #f5f5f7;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    transition: all 2s
+    
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 0px 10px 0px 20px;
+    color: #f5f5f7;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.desciption{
+    margin-top: 30px;
+    display: flex;
+    opacity: 0;
+    transition: all 2s;
+}
+#text-1{
+   color: #ad68ff;
+   font-size: 1.2em;
+   margin-left: 26%;
+   opacity: 1;
+   transition: all 2s
+}
+#text-2{
+    color: #60cafc;
+    font-size: 1.2em;
+    margin-left: 6.5%;
+    opacity: 1;
+    transition: all 2s
+ }
+ #card1{
+    box-shadow: 7px 7px 20px #ac68ff3e,
+    -7px -7px 20px #ac68ff39;;
+ }
+ #card2{
+    box-shadow: 7px 7px 20px  #60cbfc38,
+    -7px -7px 20px  #60cbfc38;;
+ }
+ .text-1-2{
+    display: none;
+    opacity: 1;
+    transition: all 2s
+ }
+ 
+.iphone-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+.text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3em;
+    transition: all 2s;
+    opacity: 0;
+}
+.iphone-case{
+    
+    width:60%;
+    height: 70vh;
+    
+}
+.iphone-case img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.systems{
+    margin-top: 20px;
+    display: flex;
+}
+.system-card{
+    margin-top: 50px;
+    width: 450px;
+    height: 690px;
+     background: #f5f5f7;
+     box-shadow: 2px 2px 15px #1d1d1f41;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+
+}
+
+.system-card2{
+    margin-top: 50px;
+    width: 430px;
+    height: 610px;
+     background: #000000;
+     box-shadow: 2px 2px 15px #1d1d1f41;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.semi-box{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  
+}
+.semi-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.system-card h3{
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.system-card2 h3{
+    font-size: 2.4em;
+    text-align: center;
+    color: #e98ef9e2;
+}
+.system-card img{
+    width:80%;
+    height: 70%;
+}
+.system-mini-box{
+    display: block;
+}
+.system-semi-card{
+    margin: 45px 0px 0px 22px;
+    width: 390px;
+    height: 320px;
+     background: #f5f5f7;
+     box-shadow: 2px 2px 15px #1d1d1f41;
+     border-radius: 15px
+}
+.system-semi-card2{
+    margin: 45px 0px 0px 22px;
+    width: 390px;
+    height: 370px;
+     background: #000000;
+     box-shadow: 2px 2px 15px #1d1d1f41;
+     border-radius: 15px;
+  
+}
+.system-semi-card2 h3{
+    font-size: 2.0em;
+    text-align: center;
+    color: #e98ef9e2;
+}
+.semi-box2{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.semi-box2 img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+.system-semi-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.spec-box{
+    width: 100%;
+    display: flex;
+}
+.spec-box h4{
+    margin-left: 15%;
+    opacity: 0.7;
+}
+.spec-box h5{
+    margin-left: 16%;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+.system-semi-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 50px 0px 0px 60px;
+}
+.system-semi-card h4{
+    font-size: 54px;
+    font-weight: 700;
+    padding: 0px 0px 0px 60px;
+    margin-top: -30px;
+}
+.system-semi-card h5{
+    font-size: 64px;
+    font-weight: 700;
+    padding: 0px 0px 0px 80px;
+    margin-top: -100px;
+}
+#new-info{
+    text-align: left;
+    width: 50%;
+    line-height: normal;
+}
+.store{
+    margin-top: 20px;
+    width: 100%;  
+    display: flex;
+    height: 70px;
+    
+
+}
+
+.store h3{
+   text-align: left;
+    margin-left: 30px;
+    font-size: 2.4em;
+    display: flex;
+   justify-content: center;
+ 
+}
+.mini-card-box{
+    margin: 10px 0px 0px 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #d2d210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.store-card-box{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    
+}
+.store-card-box::-webkit-scrollbar{
+    display: none;
+}
+.store-card{
+    margin: 20px 0px 20px 5px ;
+    width: 700px;
+    height: 510px;
+    display: flex;
+    align-items: flex-end;
+    flex: 0 0 580px;
+}
+.store-card-info{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:  #f5f5f7;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 2px 2px 15px #1d1d1f41;
+}
+.store-image{
+    width: 90%;
+    height: 200%;
+    margin: -45% 10px 0px 0px;
+    border-radius: 7px;
+   
+}
+.store-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: blur(0px);
+}
+.store-card-info-box{
+    width: 60%;
+    height: 100%;
+}
+.store-card-info-box h2{
+    margin: 10px 0px 0px 40px ;
+}
+.store-card-info-box h3{
+    margin: 10px 0px 0px 40px;
+    font-size: 0.9em;
+    opacity: 0.7;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.nav-btn{
+    width: 100%;
+    position:absolute ;
+    display: flex;
+    gap: 20px;
+
+    justify-content: flex-end;
+    right: 70px;
+} 
+#preBtn{
+   transform: rotate(180deg);
+}
+#preBtn2{
+    transform: rotate(180deg);
+ }
+.color-box{
+    width: 20px;
+    height: 20px;
+    background-color: #60cafc;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.color-box2{
+    width: 20px;
+    height: 20px;
+    background-color: #60cafc;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.color-box3{
+    width: 20px;
+    height: 20px;
+    background-color: #60cafc;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.color-box4 {
+    width: 20px;
+    height: 20px;
+    background-color: #60cafc;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* colors */
+#black{
+    background-color: #1d1d1f;
+}
+#red{
+    background-color: #ea2f2f;
+}
+#pink{
+    background-color: #f993e8;
+}
+#gold{
+    background-color:  #d2d210;
+}
+#yellow{
+    background-color:  #eddd2a;
+}
+#white{
+    background-color:  #e9dfdfe2;
+   
+}
+#purple{
+    background-color:  #ac7cb4e2;
+}
+#green{
+    background-color:  #1d3e17e2; 
+}
+#type{
+    cursor: pointer;
+}
+#apple-watch-text{
+    margin-top: 90px;
+
+}
+.apple-watch-bg{
+    width: 100%;
+    height: 50vh;
+    background: url(pics/logo/apple-watch.png);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.apple-watch-bg h3{
+    font-size: 2em;
+    margin:0px 0px 0px 30px;
+    padding-top: 60px;
+  
+}
+.apple-watch-info{
+    width: 100%;
+   
+}
+.apple-watch-system-card{
+    width: 70%;
+    height: 45vh;
+    background-color: #f5f5f7;
+    margin: 20px auto auto auto;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px #1d1d1f41;
+}
+#AppleWatch{
+    width: 40%;
+}
+.apple-watch-system-card h2{
+    margin: 0px 0px 0px 20px;
+}
+.apple-watch-system-card h3{
+    margin: 5px 0px 0px 20px;
+    font-size: 1.1em;
+}
+
+
+.apple-watch-system-card-semi{
+ width: 60%;
+ height: 100%; 
+}
+.apple-watch-system-card-semi img{
+    width: 100%;
+    height: 100%;
+}
+.apple-watch-system-card2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ }
+ .apple-watch-card-info{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+   height: 45vh;
+   border-radius: 20px;
+   box-shadow: 2px 2px 15px #1d1d1f41;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .apple-watch-card-info img{
+    width: 100%;
+    height: 100%;
+ }
+ .apple-card-semi-box{
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+ }
+ .apple-card-semi-box img{
+    width: 100%;
+    height: 100%;
+ }
+ #S8{
+    background-color:#F5F5F7;
+ }
+ #S8 img{
+    filter: blur(0px);
+ }
+ .apple-watch-card-info h3{
+ text-align: center;
+ 
+ }
+ .apple-watch-card{
+   width: 100%;
+ }
+.apple-watch-card-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+.apple-watch-card-box::-webkit-scrollbar{
+    display: none;
+}
+.apple-card{
+    flex: 0 0 500px;
+    width: 500px;
+    height: 52vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 2px 2px 15px #1d1d1f41;
+    margin-left: 20px;
+}
+.apple-card nav{
+    width: 35%;
+    
+}
+.apple-card nav h2{
+    margin: 10px 0px 0px 15px;
+}
+.apple-card nav h3{
+    text-align: center;
+    margin: 70% 0px 0px 20px;
+    font-size: 2em;
+}
+
+
+.apple-card-semi{
+ width: 65%;
+ height: 100%;
+ border-radius: 10px;
+ overflow: hidden;
+ margin-left: 2px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.apple-card-semi img{
+    width: 100%;
+    height: 80%;
+    filter: blur(0px);
+}
+.loginScreen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.432);
+    z-index: 1;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+.login-box{
+    width: 33%;
+    height: 90%;
+    background-color: #00000038;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+  
+}
+.login-box h2{
+    text-align: center;
+    font-size: 2.2em;
+}
+.input-box{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+   justify-content: start;
+
+}
+
+.login-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #0000006c;
+    color: white;
+    border-radius: 5px;
+    transition: all 2s;
+    
+}
+.login-box input:focus{
+    outline: black 2px solid;
+}
+
+#password-box{ 
+    margin-top: 20px;
+}
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-box h3{
+    font-size: 0.9em;
+    margin-right: 20px;
+}
+.content-box h4 a{
+    font-size: 0.9em;
+    color: #ffffff;
+    cursor: pointer;
+}
+#SignUpBtn{
+    cursor: pointer;
+}
+#log-1{
+    opacity: 1;
+    visibility: visible;
+}
+#log-2{
+    opacity: 1;
+    visibility: hidden;
+    padding-bottom: 30px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 26px;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+.input-box h3{
+    font-size: 0.7em;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 17%;
+}
+.ipad-box{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff ;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    
+}
+.row-box{
+    width: 50%;
+    height: 100%;
+    margin-left: 70px;
+}
+.row-box img{
+    width: 100%;
+    height: 100%;
+    filter: blur(0px);
+}
+.row-box2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row-box2 h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+}
