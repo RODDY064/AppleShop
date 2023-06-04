@@ -196,9 +196,13 @@
 }
 .row-box2{
    width: 20%;
+   position: relative;
+   margin: 24% 0px 0px -80px;
 }
 .row-box2 h3{
    display: none;
 }
-
+.shop-box-ipad{
+   width: 90px;
+}
 }
