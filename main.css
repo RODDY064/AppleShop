@@ -254,7 +254,7 @@ img{
     width: 450px;
     height: 690px;
      background: #f5f5f7;
-     box-shadow: 2px 2px 15px #1d1d1f41;
+     box-shadow: 0px 5px 20px 9px #5d5d5d20;
      border-radius: 15px;
      display: flex;
      flex-direction: column;
@@ -342,6 +342,7 @@ img{
 .system-semi-card img{
     width: 100%;
     height: 100%;
+    border-radius: 15px;
 }
 
 .spec-box{
@@ -420,7 +421,7 @@ img{
     display: none;
 }
 .store-card{
-    margin: 20px 0px 20px 5px ;
+    margin: 20px 0px 20px 8px ;
     width: 700px;
     height: 510px;
     display: flex;
@@ -435,7 +436,7 @@ img{
     background-color:  #f5f5f7;
     display: flex;
     justify-content: flex-end;
-    box-shadow: 2px 2px 15px #1d1d1f41;
+    box-shadow: 0px 5px 20px 9px #5d5d5d20;
 }
 .store-image{
     width: 90%;
@@ -570,13 +571,12 @@ img{
 }
 .apple-watch-system-card{
     width: 70%;
-    height: 45vh;
     background-color: #f5f5f7;
     margin: 20px auto auto auto;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 2px 2px 15px #1d1d1f41;
+    box-shadow: 0px 5px 20px 9px #5d5d5d20;
 }
 #AppleWatch{
     width: 40%;
@@ -608,9 +608,9 @@ img{
     margin-top: 20px;
     margin-left: 20px;
     width: 350px;
-   height: 45vh;
+   height: 47vh;
    border-radius: 20px;
-   box-shadow: 2px 2px 15px #1d1d1f41;
+   box-shadow: 0px 5px 20px 9px #5d5d5d20;
    overflow: hidden;
    display: flex;
    align-items: center;
@@ -641,9 +641,11 @@ img{
  }
  .apple-watch-card{
    width: 100%;
+   
  }
 .apple-watch-card-box{
     width: 100%;
+    height: 70vh;
     display: flex;
     align-items: center;
     overflow-x: scroll;
@@ -661,7 +663,7 @@ img{
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
-    box-shadow: 2px 2px 15px #1d1d1f41;
+    box-shadow: 2px 2px 40px #1d1d1f41;
     margin-left: 20px;
 }
 .apple-card nav{
@@ -795,8 +797,7 @@ img{
 }
 .ipad-box{
     width: 100%;
-    height: 77vh;
-    background-color: #fff ;
+    height: 74vh;
     margin-top: 60px;
     display: flex;
     align-items: center;
@@ -825,11 +826,10 @@ img{
     display: flex;
     flex-direction: column;
 }
-.row-box2 h3{
-    font-size: 48px;
+.row-box2 h4{
+    margin-top: 40%;
     font-weight: 600;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-color: #fff;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #1d1d1f;
     font-style: normal;
 }
@@ -844,4 +844,49 @@ img{
     margin: 0px 0px 0px 40px;
     border-radius: 4px;
     cursor: pointer;
+}
+.typography-section-headline {
+    font-size: 60px;
+    line-height: 1.01;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 90px 0px 0px 70px;
+}
+.section-message-1{
+    margin: 20px 0px 0px 70px;
+    line-height: 1.05;
+    width: 40%;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.section-message{
+    margin: 20px 0px 0px 70px;
+    line-height: 1.05;
+    width: 40%;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.ipad-pencil{
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ipad-pencil-box{
+    width: 62%;
+    height: 100%;
+   
+}
+.ipad-pencil-box img{
+    width: 100%;
+    height: 100%;
+    filter: blur(0px);
 }

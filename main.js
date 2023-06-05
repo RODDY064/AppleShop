@@ -7,7 +7,6 @@ const AppleWatch = document.querySelector('#apple-watch-card')
 
 
 
-
 // nav link opacity
 const NavLinks = document.querySelectorAll('#links')
 const NavBar = document.querySelector('.nav-links')
@@ -58,31 +57,37 @@ const ImageBox = document.querySelector('.image')
 const Pics = document.querySelector('#image')
 const ProductName = document.querySelector('#prdname')
 
-function ImageChange(){
-  if(window.matchMedia("(max-width: 500px)").matches){
-    AppleWatch.src = "pics/logo/S11-2.jpg"
-    Pics.src =  "pics/image/apple_pay.jpg"
-    Pics.style.height = '20vh'
-    Pics.style.margin = '40px'
-    ImageBox.style.width = '70%'
-    ImageBox.style.height = '70%'
-    ProductName.innerHTML = 'MacBook Pro'
-    document.querySelector('.image2').style.display = 'block';
-    document.querySelector('#iphone-case-img').src = "pics/logo/iphone-14-pro-gold3.jpg"
-   
-  }else{
-    Pics.src =  "pics/image/apple_pay.jpg"
-    Pics.style.height = '70%'
-    Pics.style.margin = '40px'
-    ImageBox.style.width = '70%'
-    ImageBox.style.height = '70%'
-    ProductName.innerHTML = 'MacBook Pro'
-  }
-}
-
-ImageAppear = setTimeout(function(){
+document.addEventListener('DOMContentLoaded',()=>{
+  function ImageChange(){
+    if(window.matchMedia("(max-width: 500px)").matches){
+      document.querySelector('#rowbox').src = "pics/logo/ipadbg.jpg"
+      AppleWatch.src = "pics/logo/S11-2.jpg"
+      Pics.src =  "pics/image/apple_pay.jpg"
+      Pics.style.height = '20vh'
+      Pics.style.margin = '40px'
+      ImageBox.style.width = '70%'
+      ImageBox.style.height = '70%'
+      ProductName.innerHTML = 'MacBook Pro'
+      document.querySelector('.image2').style.display = 'block';
+      document.querySelector('#iphone-case-img').src = "pics/logo/iphone-14-pro-gold3.jpg"
+    
+    }else{
+      Pics.src =  "pics/image/apple_pay.jpg"
+      Pics.style.height = '70%'
+      Pics.style.margin = '40px'
+      ImageBox.style.width = '70%'
+      ImageBox.style.height = '70%'
+      ProductName.innerHTML = 'MacBook Pro'
+    }
+  };
+  ImageAppear = setTimeout(function(){
     ImageChange()
-},7000)
+  },7000)
+  
+}
+)
+
+
 
 const title = document.querySelector('#main-h4')
 
