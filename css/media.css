@@ -147,6 +147,9 @@
    width: 97%;
 
 }
+.apple-watch-card-box{
+   height: 50vh;
+}
 .apple-watch-system-card h2{
    margin-top: 40px;
 }
