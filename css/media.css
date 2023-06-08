@@ -172,6 +172,7 @@
    width: 95%;
    height: 35vh;
    flex: 0 0 95%;
+   margin-left: 10px;
 }
 .apple-card nav h3{
    margin: 3% 0px 0px 20px;
@@ -191,8 +192,10 @@
    width: 100%;
    height: 50vh;
 }
+
+
 .row {
-   width: 97%;
+   width: 120%;
    background-color:#fff;
    border-radius: 10px;
 }
@@ -247,5 +250,25 @@
 }
 .ipad-pencil-box{
    width: 72%;
+}
+#pc2{
+   width: 80%;
+   height: auto;
+}
+footer h3{
+   margin: 90px auto; 
+}
+#sc1{
+   display: none;
+}
+#sc2{
+   display: flex;
+   margin: 20px 0px 0px 10px;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+.li-1{
+   margin: 10px  auto auto 10px;
 }
 }

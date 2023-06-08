@@ -890,3 +890,50 @@ img{
     height: 100%;
     filter: blur(0px);
 }
+#pc2{
+    width: 50%;
+    height: 70vh;
+}
+footer{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #000000;
+}
+footer h3{
+    padding-top: 60px;
+    font-size: 14px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 90px 0px 0px 70px;
+    opacity: 0.8;
+}
+.text-box-footer{
+display: flex;
+}
+.li-1{
+    cursor: pointer;
+    font-size: small;
+    text-align: start;
+    display: inline;
+    margin: 20px 0px 0px 70px;
+    list-style: none;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    opacity: 0.6;
+}
+.li-1 li:hover{
+    text-decoration: underline;
+}
+.social-links{
+    margin: 80px 0px 0px 20%;
+    display: flex;
+    gap: 20px;  
+    
+}
+box-icon{
+    cursor: pointer;
+}
+#sc2{
+    display: none;
+}
