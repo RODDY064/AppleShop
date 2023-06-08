@@ -348,6 +348,7 @@ img{
 .spec-box{
     width: 100%;
     display: flex;
+    padding-bottom: 10px;
 }
 .spec-box h4{
     margin-left: 15%;
