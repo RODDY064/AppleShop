@@ -271,4 +271,7 @@ footer h3{
 .li-1{
    margin: 10px  auto auto 10px;
 }
+footer{
+   height: auto;
+}
 }
